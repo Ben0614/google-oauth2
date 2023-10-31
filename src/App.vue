@@ -16,6 +16,8 @@ import { decodeCredential } from 'vue3-google-login'
   Google Cloud https://cloud.google.com/?hl=zh-tw 從裡面創建OAuth相關的東西
   前往控制台 > API和服務 > 憑證 > 如果已經有OAuth2.0 用戶端ID憑證 就直接用 沒有就建立憑證 
   > 用戶端編號填入下面的GOOGLE_CLIENT_ID  還有main.ts
+
+  在憑證裡的"已授權的重新導向 URI" 和 "已授權的 JavaScript 來源" 寫上啟動的網址
 */
 
 
